@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+  <title>
+    Survey Form
+  </title>
+  <style>
+        a {
+        display: inline-block;
+        font-size: 35px;
+        padding: 9px;
+        font-family: cursive;
+        }
+    /* Styling the Body element i.e. Color,
+    Font, Alignment ,background-image*/
+    body {
+      background-image: url(https://images.pexels.com/photos/3709369/pexels-photo-3709369.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+      font-family: cursive;
+      text-align: center;
+      color: saddlebrown;
+    }
+    /* Styling the Form (Color, Padding, Shadow) */
+    form {
+      background-color: #fff;
+      max-width: 700px;
+      margin: 70px auto;
+      padding: 33px 22px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    /* Styling form-control Class */
+    .form-control {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+    /* Styling form-control Label */
+    .form-control label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    /* Styling form-control input,
+    select, textarea */
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+      border: 1px solid #777;
+      border-radius: 3px;
+      font-family: inherit;
+      padding: 15px;
+      display: block;
+      width: 97%;
+    }
+    /* Styling form-control Radio
+    button and Checkbox */
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+    }
+    /* Styling Button */
+    button {
+      background-color: saddlebrown;
+      border: 2px solid #777;
+      border-radius: 3px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 28px;
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chocolate Surveyers</h1>
+  <h4 style="font-family: cursive;">NO.1 surveying site</h4>
+  <!-- Create Form -->
+  <form id="form">
+    <!-- Details -->
+    <div class="form-control">
+      <label for="name" id="label-name">
+        Name
+      </label>
+      <!-- Input Type Text -->
+      <input type="text"
+        id="name"
+        placeholder="Enter your name" />
+    </div>
+    <div class="form-control">
+      <label for="age" id="label-age">
+        Age
+      </label>
+      <!-- Input Type Text -->
+      <input type="text"
+        id="age"
+        placeholder="Enter your age" />
+    </div>
+    <div class="form-control">
+      <label for="role" id="label-role">
+        Which option best describes you?
+      </label>
+      <!-- Dropdown options -->
+      <select name="role" id="role">
+        <option value=" Movie Spectator">Movie Spectator</option>
+        <option value="Movie Reviewer">Movie Reviewer</option>
+        <option value="professional worker in movies">
+          Professional worker in movies
+        </option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-control">
+      <label>
+        Would you see Webseries and Animes?
+      </label>
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio"
+          id="recommed-1"
+          name="recommed">Only Webseries</input>
+      </label>
+      <label for="recommed-2">
+        <input type="radio"
+          id="recommed-2"
+          name="recommed">Only Animes</input>
+      </label>
+      <label for="recommed-3">
+        <input type="radio"
+          id="recommed-3"
+          name="recommed">Both</input>
+      <label for="recommed-1">
+         <input type="radio"
+          id="recommed-4"
+          name="recommed">I don't see both</input>
+      </label>
+    </div>
+<div class="form-control">
+      <label>Movies you like according to the generes
+        <small>(Check all that apply)</small>
+      </label>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox"name="inp">Science ficton</input></label>
+      <label for="inp-2">
+        <input type="checkbox"
+          name="inp">History based</input></label>
+      <label for="inp-3">
+        <input type="checkbox"
+          name="inp">Super Hero based</input></label>
+      <label for="inp-4">
+        <input type="checkbox"
+          name="inp">True Story</input></label>
+      <label for="inp-5">
+        <input type="checkbox"
+          name="inp">Horror</input></label>
+      <label for="inp-6">
+        <input type="checkbox"
+          name="inp">Comedy</input></label>
+      <label for="inp-7">
+        <input type="checkbox"
+          name="inp">Bio-Graphy</input></label>
+      <label for="inp-8">
+        <input type="checkbox"
+          name="inp">Action</input></label>
+      <label for="inp-9">
+        <input type="checkbox"
+          name="inp">Novel</input></label>
+      <label for="inp-10">
+        <input type="checkbox"
+          name="inp">Thriller</input></label>
+    <label for="inp-11">
+        <input type="checkbox"
+            name="inp">Romantic</input></label>
+    <label for="inp-12">
+        <input type="checkbox"
+            name="inp">Drama</input></label>
+    <label for="inp-13">
+        <input type="checkbox"
+            name="inp">Narration</input></label> 
+    <label for="inp-14">
+        <input type="checkbox"
+            name="inp">Animation</input></label>     
+    <label for="inp-15">
+        <input type="checkbox"
+            name="inp">Suspense</input></label>               
+    </div>
+    <div class="form-control">
+      <label for="comment">
+        Any comments or suggestions to add geners
+      </label>
+      <!-- multi-line text input control -->
+      <textarea name="comment" id="comment"
+        placeholder="Enter your comment here">
+      </textarea>
+    </div>
+    <!-- Multi-line Text Input Control -->
+    <button type="submit" value="submit">
+      Submit
+    </button>
+     <a href="">Participate in our next survey</a>
+    <h5 style="font-family: cursive;">What type gaming controls do you prefer </h5>
+  </form>
+</body>
+</html>
