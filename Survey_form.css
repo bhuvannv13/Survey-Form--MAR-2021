@@ -1,0 +1,64 @@
+        a {
+        display: inline-block;
+        font-size: 35px;
+        padding: 9px;
+        font-family: cursive;
+        }
+    /* Styling the Body element i.e. Color,
+    Font, Alignment ,background-image*/
+    body {
+      background-image: url(https://images.pexels.com/photos/3709369/pexels-photo-3709369.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+      font-family: cursive;
+      text-align: center;
+      color: saddlebrown;
+    }
+    /* Styling the Form (Color, Padding, Shadow) */
+    form {
+      background-color: #fff;
+      max-width: 700px;
+      margin: 70px auto;
+      padding: 33px 22px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    /* Styling form-control Class */
+    .form-control {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+    /* Styling form-control Label */
+    .form-control label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    /* Styling form-control input,
+    select, textarea */
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+      border: 1px solid #777;
+      border-radius: 3px;
+      font-family: inherit;
+      padding: 15px;
+      display: block;
+      width: 97%;
+    }
+    /* Styling form-control Radio
+    button and Checkbox */
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+    }
+    /* Styling Button */
+    button {
+      background-color: saddlebrown;
+      border: 2px solid #777;
+      border-radius: 3px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 28px;
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+ 
