@@ -10,3 +10,7 @@ A simple survey form built with HTML and CSS in March 2021 as a front-end practi
 ## Running it
 
 Open `Survey_form.html` in a browser.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
